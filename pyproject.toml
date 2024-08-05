@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "django-video"
+version = "0.1.0"
+description = "test case make scroll-based videos"
+authors = ["andrejrabinov <andryabinov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.7"
+ffmpeg-python = "^0.2.0"
+pillow = "^10.4.0"
+logging = "^0.4.9.6"
+environs = "^11.0.0"
+uvicorn = "^0.30.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
